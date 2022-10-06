@@ -11,7 +11,7 @@ pipeline {
             steps{
                // sh "chmod +x driver/chromedriver"
                echo "toto"
-               git branch: 'main', url: 'https://github.com/AbdiAutom/TestGit2.git'
+               git branch: 'main', url: 'https://github.com/AbdiAutom/JenkinsPipeline.git'
                sh "mvn clean"
             }
         }
